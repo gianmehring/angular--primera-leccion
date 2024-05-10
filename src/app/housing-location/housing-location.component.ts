@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 import { HousingLocation } from '../housinglocation';
 
@@ -9,7 +9,7 @@ import { HousingLocation } from '../housinglocation';
   standalone: true,
   imports: [
     CommonModule,
-    RouterLink
+    RouterLink, RouterOutlet,
   ],
   template: `
     
