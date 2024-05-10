@@ -27,3 +27,9 @@ import { HomeComponent } from './home/home.component';
 export class AppComponent {
   title = 'homes';
 }
+
+/*
+LEVANTAR DB.JSON CON JSON-SERVER
+en la linea de comandos:
+    json-server --watch db.json
+*/
